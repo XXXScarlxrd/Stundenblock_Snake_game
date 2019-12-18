@@ -10,3 +10,10 @@ Nach einem Download dieser Programmiersprache, richte ich mir das Programm ein u
 
 ### Informatikstunde Nr. 3  (18.12.19)
 Heute führe ich meine Suche nach den gewollten Features fort und versuche Wege, diese in mein Spiel einzubauen, zu finden.
+
+
+
+
+
+http://zetcode.com/tutorials/javagamestutorial/snake/
+https://github.com/janbodnar/Java-Snake-Game/blob/master/src/com/zetcode/Board.java
