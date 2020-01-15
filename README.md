@@ -21,5 +21,5 @@ https://github.com/janbodnar/Java-Snake-Game/blob/master/src/com/zetcode/Board.j
 
 ### Informatikstunde Nr. 4  (15.01.2020)
 Heute überlege ich mir, wie ich Java nutze, um meine Wünsche und Vorstellungen zu verwirklichen. Dabei möchte ich von einer einfachen 2D-Spielfläche abweichen. Zumindest teilweise. Ich würde gerne einen Wechsel der Spielperspektive einbauen, wodurch das Gefühl eines 3D-Raums zur Geltung kommt. Dazu nutze ich beim Wechsel Mandelbrots Gleichung als Hintergrund:
-![mandelbrot](https://images.app.goo.gl/uKNJVhnWE3urQZpZ8)
+![mandelbrot](https://media.giphy.com/media/LUk0ofIlbDb68/giphy.gif)
 
