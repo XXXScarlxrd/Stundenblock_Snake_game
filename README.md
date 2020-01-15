@@ -24,3 +24,5 @@ Heute überlege ich mir, wie ich Java nutze, um meine Wünsche und Vorstellungen
 
 ![mandelbrot](https://media.giphy.com/media/LUk0ofIlbDb68/giphy.gif)
 
+
+
