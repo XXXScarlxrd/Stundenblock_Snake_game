@@ -24,5 +24,6 @@ Heute überlege ich mir, wie ich Java nutze, um meine Wünsche und Vorstellungen
 
 ![mandelbrot](https://media.giphy.com/media/LUk0ofIlbDb68/giphy.gif)
 
-
+### Informatikstunde Nr. 5  (16.01.2020)
+Heute kann ich leider nur am Handy an meinem Stundenblog arbeiten, denn zwei Computer sind ausgefall
 
