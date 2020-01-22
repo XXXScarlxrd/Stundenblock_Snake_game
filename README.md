@@ -27,11 +27,11 @@ Heute überlege ich mir, wie ich Java nutze, um meine Wünsche und Vorstellungen
 ### Informatikstunde Nr. 5  (16.01.2020)
 Heute kann ich leider nur am Handy an meinem Stundenblog arbeiten, denn zwei Computer sind ausgefallen.
 Dennoch schaue ich mir Videos an, in welchem ich wichtige Befehle und Code-Stränge entnehmen kann.
-[Video 1](https://www.youtube.com/watch?v=91a7ceECNTc)
+[Video 1](https://www.youtube.com/watch?v=91a7ceECNTc),
 [Video 2](https://www.youtube.com/watch?v=OZYVfVxB81s)
 Zudem schaue ich mir ein weiteres Mal die Mandelbrot-gleichung an und verstehe sie.
 
 
 ### Informatikstunde Nr. 5  (22.01.2020)
-Zuhause habe ich mein Projekt so weit gut voran gebracht. Allerdings entscheide ich mich nun dazu mein Projekt auf [Godot](https://godotengine.org/) umzuschreiben, da ich mit dieser Programmiersprache bereits mein erstes Projekt umgesetzt hatte. Zudem habe ich das Gefühl das Godot mehr für solche Art von Programmierungen geschaffen ist.
+Zuhause habe ich mein Projekt so weit gut voran gebracht. Allerdings entscheide ich mich nun dazu mein Projekt auf [Godot](https://godotengine.org/) umzuschreiben, da ich mit dieser Programmiersprache bereits mein erstes Projekt umgesetzt hatte. Zudem habe ich das Gefühl das Godot mehr für solche Art von Programmierungen geschaffen ist. Das Prinzip wird dabei das gleiche bleiben.
 
