@@ -31,3 +31,7 @@ Dennoch schaue ich mir Videos an, in welchem ich wichtige Befehle und Code-Strä
 ![Video 2](https://www.youtube.com/watch?v=OZYVfVxB81s)
 Zudem schaue ich mir ein weiteres Mal die Mandelbrot-gleichung an und verstehe sie.
 
+
+### Informatikstunde Nr. 5  (22.01.2020)
+Zuhause habe ich mein Projekt so weit gut voran gebracht. Allerdings entscheide ich mich nun dazu mein Projekt auf [Godot](https://godotengine.org/) umzuschreiben, da ich mit dieser Programmiersprache bereits mein erstes Projekt umgesetzt hatte. Zudem habe ich das Gefühl das Godot mehr für solche Art von Programmierungen geschaffen ist.
+
