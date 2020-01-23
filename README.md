@@ -5,11 +5,11 @@ Heute erfahre ich, dass ich ein neues Projekt entwickeln oder and meinem alten w
 Dabei entscheide ich mich dazu ein neues Projekt anzufangen. Ich entscheide mich nach Überlegungen und kleinen Recherechen dafür ein Snake-spiel zu programmieren, allerdings mit vielen Features.
 
 ### Informatikstunde Nr. 2  (11.12.2019)
-Heute entscheide ich mich für eine Programmiersprache. Dabei betrachte ich C++ und Java, webei ich mich schließlich für Java entscheide.
+Derzeit überlege ich noch, welche Programmiersprache ich in den kommenden Wochen nutzen werde. Dabei betrachte ich C++ und Java, webei ich mich schließlich für Java entscheide, weil diese sich für Einsteiger eignet.
 Nach einem Download dieser Programmiersprache, richte ich mir das Programm ein und beginne mit meiner Suche nach Features, welche ich in das Spiel einbauen möchte.
 
 ### Informatikstunde Nr. 3  (18.12.2019)
-Heute führe ich meine Suche nach den gewollten Features fort und versuche Wege, diese in mein Spiel einzubauen, zu finden.
+Diese Unterrichtsstunde habe ich meine Suche nach Features fortgesetzt, wobei ich auf einige Optionen gestoßen bin. Außerdem habe ich neue Methoden durch online-tutorials erlernt.
 
 
 
@@ -34,4 +34,6 @@ Zudem schaue ich mir ein weiteres Mal die Mandelbrot-gleichung an und verstehe s
 
 ### Informatikstunde Nr. 5  (22.01.2020)
 Zuhause habe ich mein Projekt so weit gut voran gebracht. Allerdings entscheide ich mich nun dazu mein Projekt auf [Godot](https://godotengine.org/) umzuschreiben, da ich mit dieser Programmiersprache bereits mein erstes Projekt umgesetzt hatte. Zudem habe ich das Gefühl das Godot mehr für solche Art von Programmierungen geschaffen ist. Das Prinzip wird dabei das gleiche bleiben.
+
+### Informatikstunde Nr. 7  (23.01.2020)
 
