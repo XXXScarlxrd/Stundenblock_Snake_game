@@ -9,13 +9,11 @@ Derzeit überlege ich noch, welche Programmiersprache ich in den kommenden Woche
 Nach einem Download dieser Programmiersprache, richte ich mir das Programm ein und beginne mit meiner Suche nach Features, welche ich in das Spiel einbauen möchte.
 
 ### Informatikstunde Nr. 3  (18.12.2019)
-Diese Unterrichtsstunde habe ich meine Suche nach Features fortgesetzt, wobei ich auf einige Optionen gestoßen bin. Außerdem habe ich neue Methoden durch online-tutorials erlernt.
+Diese Unterrichtsstunde habe ich meine Suche nach Features fortgesetzt, wobei ich auf einige Optionen gestoßen bin. Außerdem habe ich neue Methoden durch [Tutorials](http://zetcode.com/tutorials/javagamestutorial/snake/) erlernt.
 
 
 
 
-
-http://zetcode.com/tutorials/javagamestutorial/snake/
 https://github.com/janbodnar/Java-Snake-Game/blob/master/src/com/zetcode/Board.java
 
 
