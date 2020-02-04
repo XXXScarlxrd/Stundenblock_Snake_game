@@ -34,6 +34,12 @@ Zudem schaue ich mir ein weiteres Mal die Mandelbrot-gleichung an und verstehe s
 Zuhause habe ich mein Projekt so weit gut voran gebracht. Allerdings entscheide ich mich nun dazu mein Projekt auf [Godot](https://godotengine.org/) umzuschreiben, da ich mit dieser Programmiersprache bereits mein erstes Projekt umgesetzt hatte. Zudem habe ich das Gefühl das Godot mehr für solche Art von Programmierungen geschaffen ist. Das Prinzip wird dabei das gleiche bleiben.
 
 ### Zuhausestunde Nr. 1  (01.02.2020)
-Zuerst kümmere ich mich um das 2D-Spielfeld. fraktal
+Zuerst sorge ich dafür, dass das 2D-Spielfeld und das Einfügen der Fraktal-Gleichung, welche verschiedene Farben aufweisen soll, reibungslos funktioniert.
+
+
+
+.
+
+
 
 
