@@ -36,6 +36,9 @@ Zuhause habe ich mein Projekt so weit gut voran gebracht. Allerdings entscheide 
 ### Zuhausestunde Nr. 1  (01.02.2020)
 Zuerst sorge ich dafür, dass das 2D-Spielfeld und das Einfügen der Fraktal-Gleichung, welche verschiedene Farben aufweisen soll, reibungslos funktioniert.
 
+### Informatikstunde Nr. 7  (05.02.2020)
+Am heutigen Tage, habe ich das Spiel "Snake" programmiert und Screenshots von dem Ergebnis gemacht. Nun weiß ich, wie ich das Spiel programmiere und die essenziellen Aspekte für das Spiel programmiere. Mit dieser Erfahrung werde ich nun mein eigentliches Vorhaben praktisch umsetzen.
+
 
 
 .
