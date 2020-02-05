@@ -40,7 +40,8 @@ Zuerst sorge ich dafür, dass das 2D-Spielfeld und das Einfügen der Fraktal-Gle
 Am heutigen Tage, habe ich das Spiel "Snake" programmiert und Screenshots von dem Ergebnis gemacht. Nun weiß ich, wie ich das Spiel programmiere und die essenziellen Aspekte für das Spiel programmiere. Mit dieser Erfahrung werde ich nun mein eigentliches Vorhaben praktisch umsetzen.
 
 Dafür werde ich folgende Schritte übertragen/nutzen, allerdings auch verändern:
-<a href="https://www.bilder-upload.eu/bild-675ae7-1580901090.png.html" target="_blank"><img src="https://www.bilder-upload.eu/thumb/675ae7-1580901090.png" border="1" alt="Bilder-Upload.eu - share DEINE Bilder" /></a>
+[URL=https://www.bilder-upload.eu/bild-675ae7-1580901090.png.html][IMG]https://www.bilder-upload.eu/thumb/675ae7-1580901090.png[/IMG][/URL]
+
 
 
 
