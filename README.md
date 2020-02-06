@@ -40,13 +40,15 @@ Zuerst sorge ich dafür, dass das 2D-Spielfeld und das Einfügen der Fraktal-Gle
 Am heutigen Tage, habe ich das Spiel "Snake" programmiert und Screenshots von dem Ergebnis gemacht. Nun weiß ich, wie ich das Spiel programmiere und die essenziellen Aspekte für das Spiel programmiere. Mit dieser Erfahrung werde ich nun mein eigentliches Vorhaben praktisch umsetzen.
 
 Dafür werde ich folgende Schritte übertragen/nutzen, allerdings auch verändern:
-Dieser Code-Abschnitt sorgt dafür, dass das Spiel neustartet, sofern man stirbt und dafür, dass die Schlange länger wird, sofern der Kopf einen Apfel einsammelt.
+Dieser Code-Abschnitt sorgt dafür, dass das Spiel neu gestartet wird, sofern man stirbt ODER dafür, dass die Schlange länger wird, sofern der Kopf einen Apfel einsammelt.
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/3.PNG)
 Dabei sorgt dieser Abschnitt für das zufällige "Spawnen" der Äpfel auf dem Spielfeld und für die mögliche Kollision mit meiner Schlange, welche für das eben gennante sorgt.
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/2.PNG)
 
 Zudem nutze ich diesen Code-abschnitt, um die "Score"-Anzeige funktionieren zu lassen:
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/4.PNG)
+Diese sieht dabei so aus:
+![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/7.PNG)
 
 
 
