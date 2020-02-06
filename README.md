@@ -36,13 +36,17 @@ Zuhause habe ich mein Projekt so weit gut voran gebracht. Allerdings entscheide 
 ### Zuhausestunde Nr. 1  (01.02.2020)
 Zuerst sorge ich dafür, dass das 2D-Spielfeld und das Einfügen der Fraktal-Gleichung, welche verschiedene Farben aufweisen soll, reibungslos funktioniert.
 
-### Informatikstunde Nr. 7  (05.02.2020)
+### Informatikstunde Nr. 7  (05.02.2020 - 06.02.2020)
 Am heutigen Tage, habe ich das Spiel "Snake" programmiert und Screenshots von dem Ergebnis gemacht. Nun weiß ich, wie ich das Spiel programmiere und die essenziellen Aspekte für das Spiel programmiere. Mit dieser Erfahrung werde ich nun mein eigentliches Vorhaben praktisch umsetzen.
 
 Dafür werde ich folgende Schritte übertragen/nutzen, allerdings auch verändern:
 Dieser Code-Abschnitt sorgt dafür, dass das Spiel neustartet, sofern man stirbt und dafür, dass die Schlange länger wird, sofern der Kopf einen Apfel einsammelt.
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/3.PNG)
-![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/10.PNG)
+Dabei sorgt dieser Abschnitt für das zufällige "Spawnen" der Äpfel auf dem Spielfeld und für die mögliche Kollision mit meiner Schlange, welche für das eben gennante sorgt.
+![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/2.PNG)
+
+Zudem nutze ich diesen Code-abschnitt 
+
 
 
 
