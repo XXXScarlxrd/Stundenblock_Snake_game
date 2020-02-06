@@ -43,7 +43,8 @@ Dafür werde ich folgende Schritte übertragen/nutzen, allerdings auch veränder
 
 Zuerst bestimme ich Variablen, welche ich in meinem Code verwenden werde:
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/Unbenannt.PNG)
-Dieser Code-Abschnitt sorgt dafür, dass das Spiel neu gestartet wird, sofern man stirbt ODER dafür, dass die Schlange länger wird, sofern der Kopf einen Apfel einsammelt.
+
+Der nächste Code-Abschnitt sorgt dafür, dass das Spiel neu gestartet wird, sofern man stirbt ODER dafür, dass die Schlange länger wird, sofern der Kopf einen Apfel einsammelt.
 
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/3.PNG)
 Dabei sorgt dieser Abschnitt für das zufällige "Spawnen" der Äpfel ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/9.PNG) auf dem Spielfeld und für die mögliche Kollision mit meiner Schlange, welche für das eben gennante sorgt.
