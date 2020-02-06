@@ -40,6 +40,9 @@ Zuerst sorge ich dafür, dass das 2D-Spielfeld und das Einfügen der Fraktal-Gle
 Am heutigen Tage, habe ich das Spiel "Snake" programmiert und Screenshots von dem Ergebnis gemacht. Nun weiß ich, wie ich das Spiel programmiere und die essenziellen Aspekte für das Spiel programmiere. Mit dieser Erfahrung werde ich nun mein eigentliches Vorhaben praktisch umsetzen.
 
 Dafür werde ich folgende Schritte übertragen/nutzen, allerdings auch verändern:
+
+Zuerst bestimme ich Variablen, welche ich in meinem Code verwenden werde:
+![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/Unbenannt.PNG)
 Dieser Code-Abschnitt sorgt dafür, dass das Spiel neu gestartet wird, sofern man stirbt ODER dafür, dass die Schlange länger wird, sofern der Kopf einen Apfel einsammelt.
 
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/3.PNG)
