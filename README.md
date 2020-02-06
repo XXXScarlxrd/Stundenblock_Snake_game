@@ -41,11 +41,14 @@ Am heutigen Tage, habe ich das Spiel "Snake" programmiert und Screenshots von de
 
 Dafür werde ich folgende Schritte übertragen/nutzen, allerdings auch verändern:
 Dieser Code-Abschnitt sorgt dafür, dass das Spiel neu gestartet wird, sofern man stirbt ODER dafür, dass die Schlange länger wird, sofern der Kopf einen Apfel einsammelt.
+
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/3.PNG)
-Dabei sorgt dieser Abschnitt für das zufällige "Spawnen" der Äpfel auf dem Spielfeld und für die mögliche Kollision mit meiner Schlange, welche für das eben gennante sorgt.
+Dabei sorgt dieser Abschnitt für das zufällige "Spawnen" der Äpfel ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/9.PNG) auf dem Spielfeld und für die mögliche Kollision mit meiner Schlange, welche für das eben gennante sorgt.
+
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/2.PNG)
 
 Zudem nutze ich diesen Code-abschnitt, um die "Score"-Anzeige funktionieren zu lassen:
+
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/4.PNG)
 Diese sieht dabei so aus:
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/7.PNG)
