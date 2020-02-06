@@ -45,7 +45,8 @@ Dieser Code-Abschnitt sorgt dafür, dass das Spiel neustartet, sofern man stirbt
 Dabei sorgt dieser Abschnitt für das zufällige "Spawnen" der Äpfel auf dem Spielfeld und für die mögliche Kollision mit meiner Schlange, welche für das eben gennante sorgt.
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/2.PNG)
 
-Zudem nutze ich diesen Code-abschnitt 
+Zudem nutze ich diesen Code-abschnitt, um die "Score"-Anzeige funktionieren zu lassen:
+![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/4.PNG)
 
 
 
