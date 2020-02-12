@@ -58,6 +58,11 @@ Diese sieht dabei so aus:
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/7.PNG)
 
 
+### Informatikstunde Nr. 8  (12.02.2020)
+Zuhause hatte ich bereits angefangen, zu codieren, dass die 
+Spielfigur meiner Maus folgt. 
+
+
 
 
 
