@@ -54,7 +54,11 @@ Dabei sorgt dieser Abschnitt für das zufällige "Spawnen" der Äpfel ![image](h
 Zudem nutze ich diesen Code-abschnitt, um die "Score"-Anzeige funktionieren zu lassen:
 
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/4.PNG)
+
+                                    
 Diese sieht dabei so aus:
+
+                                                          
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/7.PNG)
 
 
