@@ -60,17 +60,10 @@ Diese sieht dabei so aus:
 
 ### Informatikstunde Nr. 8  (12.02.2020)
 Zuhause hatte ich bereits angefangen, zu codieren, dass die 
-Spielfigur meiner Maus folgt. 
+Spielfigur meiner Maus folgt. Anstatt eines Raster-muster auf welchem man sich bewegt, ist man frei in der Bewegung.
 
-
-
-
-
-
-
-
-.
-
-
+### Informatikstunde Nr. 9  (13.02.2020)
+Ich beginne heute damit "Power-Ups" in mein Spiel einzufügen, was für mehr Spielspaß sorgen soll.
+Dafür verwende ich einfach den Code für den Apfel, welcher meine Schlange länger werden lässt und ändere ihn ab auf eine andere Funktion, welche ausgeführt wird, sofern dieses eingesammelt wird.  
 
 
