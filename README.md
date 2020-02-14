@@ -70,4 +70,7 @@ Spielfigur meiner Maus folgt. Anstatt eines Raster-musters auf welchem man sich 
 Ich beginne heute damit "Power-Ups" in mein Spiel einzufügen, was für mehr Spielspaß sorgen soll.
 Dafür verwende ich einfach den Code für den Apfel, welcher meine Schlange länger werden lässt und ändere ihn ab auf eine andere Funktion, welche ausgeführt wird, sofern dieses eingesammelt wird.
 
+### Informatikstunde Nr. 10  (14.02.2020)
+Heute kümmere ich mich darum, dass mein Spielfeld größer wird, wenn man als Schlange irgendwann zu groß ist.
+Dabei möchte ich den Bick auf meine Schlange kaum verändern.
 
