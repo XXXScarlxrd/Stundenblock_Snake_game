@@ -51,7 +51,7 @@ Dabei sorgt dieser Abschnitt für das zufällige "Spawnen" der Äpfel ![image](h
 
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/2.PNG)
 
-Zudem nutze ich diesen Code-abschnitt, um die "Score"-Anzeige funktionieren zu lassen:
+Zudem nutze ich diesen Code-Abschnitt, um die "Score"-Anzeige funktionieren zu lassen:
 
 ![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/4.PNG)
 
@@ -73,4 +73,6 @@ Dafür verwende ich einfach den Code für den Apfel, welcher meine Schlange län
 ### Informatikstunde Nr. 10  (14.02.2020)
 Heute kümmere ich mich darum, dass mein Spielfeld größer wird, wenn man als Schlange irgendwann zu groß ist.
 Dabei möchte ich den Bick auf meine Schlange kaum verändern.
+
+### Informatikstunde Nr. 11  (11.03.2020)
 
