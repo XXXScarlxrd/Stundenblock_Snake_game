@@ -56,7 +56,7 @@ Nachdem ich jetzt die Grundbausteine hatte, habe ich die "Point"-Objekte fertigg
 
 ## Informatikstunde Nr. 10 (13.02.2020)
 
-Ich beginne heute damit "Power-Ups" in mein Spiel einzufügen, was für mehr Spielspaß sorgen soll. Diese kann ich ebenfalls von der "Pickup"-Klasse abstammen lassen, um weniger arbeit zu haben.
+Ich beginne heute damit "Power-Ups" in mein Spiel einzufügen, was für mehr Spielspaß sorgen soll. Diese kann ich ebenfalls von der "Pickup"-Klasse abstammen lassen, um weniger Arbeit zu haben.
 
 ## Informatikstunde Nr. 11 (14.02.2020)
 
@@ -64,3 +64,8 @@ Heute kümmere ich mich darum, dass der spielbare Bereich größer wird, wenn di
 
 ## Informatikstunde Nr. 12 (11.03.2020)
 
+Heute habe ich Hindernisse eingebaut, die zufällig im Spielbereich erscheinen. Wenn der Spieler mit einem solchen Hindernis kollidiert, ist das Spiel vorbei.
+
+## Coronaferien
+
+Da der Unterricht bis zu den Osterferien unterbrochen wird, werde ich von nun an zuhause arbeiten. Da habe ich mich weiter mit der Problematik der Fraktaldarstellung beschäftigt. Ich habe dabei ein Repository auf Github gefunden, das sowohl die Mandelbrot-Menge als auch die Julia-Menge implementiert. Bei der Julia-Menge lässt sich die Berechnung bei einer guten Performance während des Spielens dynamisch verändern, sodass sich der Hintergrund des Spielfeldes dauerhaft ändern könnte. Ich werde also in den nächsten Tagen mich damit beschäftigen. Außerdem möchte ich noch ein kleines Menü einbauen, damit das Spiel nicht sofort beginnt.
