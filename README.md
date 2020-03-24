@@ -3,7 +3,7 @@
 
 ## Informatikstunde Nr. 1 (10.12.2019)
 
-Heute erfahre ich, dass ich ein neues Projekt entwickeln oder and meinem alten weiter arbeiten kann. Dabei entscheide ich mich dazu ein neues Projekt anzufangen. Ich entscheide mich nach Überlegungen und kleinen Recherechen dafür ein Spiel zu programmieren, das Snake ähnelt.
+Heute erfahre ich, dass ich ein neues Projekt entwickeln oder an meinem alten weiter arbeiten kann. Dabei entscheide ich mich dazu ein neues Projekt anzufangen. Ich entscheide mich nach Überlegungen und kleinen Recherechen dafür ein Spiel zu programmieren, das Snake ähnelt.
 
 ## Informatikstunde Nr. 2 (11.12.2019)
 
@@ -68,4 +68,4 @@ Heute habe ich Hindernisse eingebaut, die zufällig im Spielbereich erscheinen. 
 
 ## Coronaferien
 
-Da der Unterricht bis zu den Osterferien unterbrochen wird, werde ich von nun an zuhause arbeiten. Da habe ich mich weiter mit der Problematik der Fraktaldarstellung beschäftigt. Ich habe dabei ein Repository auf Github gefunden, das sowohl die Mandelbrot-Menge als auch die Julia-Menge implementiert. Bei der Julia-Menge lässt sich die Berechnung bei einer guten Performance während des Spielens dynamisch verändern, sodass sich der Hintergrund des Spielfeldes dauerhaft ändern könnte. Ich werde also in den nächsten Tagen mich damit beschäftigen. Außerdem möchte ich noch ein kleines Menü einbauen, damit das Spiel nicht sofort beginnt.
+Da der Unterricht bis zu den Osterferien unterbrochen wird, werde ich von nun an zuhause arbeiten. Da habe ich mich weiter mit der Problematik der Fraktaldarstellung beschäftigt. Ich habe dabei ein [Repository](https://github.com/tinmanjuggernaut/godot-fractal-art) auf Github gefunden, das sowohl die Mandelbrot-Menge als auch die Julia-Menge implementiert. Bei der Julia-Menge lässt sich die Berechnung bei einer guten Performance während des Spielens dynamisch verändern, sodass sich der Hintergrund des Spielfeldes dauerhaft ändern könnte. Da der Code mit der sogenannten MIT-Lizenz freigegeben ist, könnte ich ihn in mein Projekt einbinden. Ich werde also in den nächsten Tagen mich damit beschäftigen. Außerdem möchte ich noch ein kleines Menü einbauen, damit das Spiel nicht sofort beginnt.
