@@ -32,49 +32,35 @@ Zudem schaue ich mir eine Erklärung der Mandelbrotmenge an.
 
 ## Informatikstunde Nr. 6 (22.01.2020)
 
-Zuhause habe ich mein Projekt so weit gut voran gebracht. Allerdings entscheide ich mich nun dazu mein Projekt auf [Godot](https://godotengine.org/) umzuschreiben, da ich mit dieser Programmiersprache bereits mein erstes Projekt umgesetzt hatte. Zudem habe ich das Gefühl das Godot mehr für solche Art von Programmierungen geschaffen ist. Das Prinzip wird dabei das gleiche bleiben.
+Ich habe außerhalb des Informatikunterrichts ein wenig an meinem Projekt weitergearbeitet. Da fiel mir auf, dass ich mich mit Java nicht ganz so schnell vertaut machen konnte, wie ich es mir erhofft hatte. Ich habe mir deshalb überlegt, mein Projekt nun doch mit der [Godot Engine](https://godotengine.org/) umzusetzen, da ich mit diesem Programm bereits mein erstes Projekt fertiggestellt hatte. Zudem habe ich das Gefühl das Godot mehr für solche Art von Programmierungen geschaffen ist. Das Spielprinzip wird dabei das gleiche bleiben.
 
 ## Zuhausestunde Nr. 1 (01.02.2020)
 
-Zuerst sorge ich dafür, dass das 2D-Spielfeld und das Einfügen der Fraktal-Gleichung, welche verschiedene Farben aufweisen soll, reibungslos funktioniert.
+Zuerst wollte ich dafür sorgen, dass das Anzeigen der Mandelbrotmenge im Hintergrund des Spielfeldes funktioniert. Dafür müsste ich mir einen eigenen Shader schreiben, und da ich das bislang noch nie gemacht hatte, habe ich mir dafür ein [Video](https://www.youtube.com/watch?v=kv3uGJq12fc) angeschaut. Dabei habe ich gelernt, dass der Zoom, so wie ich in mir bislang vorgestellt hatte, nicht uneingeschränkt möglich ist. Ich muss dafür weiter recherchieren und mir unter Umständen eine Alternative überlegen.
 
-## Informatikstunde Nr. 7 & 8 (05.02.2020 - 06.02.2020)
-
-Am heutigen Tage, habe ich das Spiel "Snake" programmiert und Screenshots von dem Ergebnis gemacht. Nun weiß ich, wie ich das Spiel programmiere und die essenziellen Aspekte für das Spiel programmiere. Mit dieser Erfahrung werde ich nun mein eigentliches Vorhaben praktisch umsetzen.
-
-Dafür werde ich folgende Schritte übertragen/nutzen, allerdings auch verändern:
-
-Zuerst bestimme ich Variablen, welche ich in meinem Code verwenden werde:
-
-![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/Unbenannt.PNG)
-
-Der nächste Code-Abschnitt sorgt dafür, dass das Spiel neu gestartet wird, sofern man stirbt ODER dafür, dass die Schlange länger wird, sofern der Kopf einen Apfel einsammelt.
-
-![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/3.PNG)
-
-Dabei sorgt dieser Abschnitt für das zufällige "Spawnen" der Äpfel image auf dem Spielfeld und für die mögliche Kollision mit meiner Schlange, welche für das eben gennante sorgt.
-
-![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/2.PNG)
-
-Zudem nutze ich diesen Code-Abschnitt, um die "Score"-Anzeige funktionieren zu lassen:
-
-![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/4.PNG)
-
-Diese sieht dabei so aus:
-
-![image](https://github.com/XXXScarlxrd/Stundenblock_Snake_game/blob/master/7.PNG)
-
-
-## Informatikstunde Nr. 8 (12.02.2020)
+## Informatikstunde Nr. 7 (05.02.2020)
 
 Ich möchte mit meinem Snake vom klassischen Rastermuster für die Bewegung abweichen und dem Spieler erlauben sich relativ frei zu bewegen. Dafür habe ich mithilfe der [Godot-Dokumentation](https://docs.godotengine.org/en/3.1/tutorials/2d/2d_movement.html) eine Funktion eingebaut, die den Spieler der Maus dauerhaft folgen lässt.
 
-## Informatikstunde Nr. 9 (13.02.2020)
 
-Ich beginne heute damit "Power-Ups" in mein Spiel einzufügen, was für mehr Spielspaß sorgen soll. Dafür verwende ich einfach den Code für den Apfel, welcher meine Schlange länger werden lässt und ändere ihn ab auf eine andere Funktion, welche ausgeführt wird, sofern dieses eingesammelt wird.
+## Informatikstunde Nr. 8 (06.02.2020)
 
-## Informatikstunde Nr. 10 (14.02.2020)
+Während ich mich mit Java auseinandergesetzt hatte, habe ich die Objektorientierte Programmieren näher kennengelernt. Dies ist auch in Godot möglich und ich möchte diese Möglichkeit ausschöpfen. Es soll nicht nur ein Objekt geben, das dem Spieler Punkte gibt, sobald es berührt wird, sondern auch "Power-Ups", die z.B. die Geschwindigkeit des Spielers erhöhen.
+Also erstelle ich mir zuerst eine Klasse, die ich "Pickup" nenne. Sie enthält die grundlegenden Eigenschaften der Objekte mit denen der Spieler interagieren kann. Nun kann ich in meine "Point"-Klasse `extends Pickup` schreiben, um die Eigenschaften der Pickup-Klasse zu übernehmen. Jetzt muss ich nur überschreiben, was bei der Kollision mit dem Spieler passieren soll.
 
-Heute kümmere ich mich darum, dass mein Spielfeld größer wird, wenn man als Schlange irgendwann zu groß ist. Dabei möchte ich den Bick auf meine Schlange kaum verändern.
+## Informatikstunde Nr. 9 (12.02.2020)
 
-## Informatikstunde Nr. 11 (11.03.2020)
+Nachdem ich jetzt die Grundbausteine hatte, habe ich die "Point"-Objekte fertiggestellt. Anschließend habe ich ein Text-Element zum Bildschirm hinzugefügt, das die aktuelle Punktzahl anzeigt.
+
+![](punkte.jpg)
+
+## Informatikstunde Nr. 10 (13.02.2020)
+
+Ich beginne heute damit "Power-Ups" in mein Spiel einzufügen, was für mehr Spielspaß sorgen soll. Diese kann ich ebenfalls von der "Pickup"-Klasse abstammen lassen, um weniger arbeit zu haben.
+
+## Informatikstunde Nr. 11 (14.02.2020)
+
+Heute kümmere ich mich darum, dass der spielbare Bereich größer wird, wenn die "Schlange" des Spielers eine gewisse Größe erreicht. Da der Spieler zu jedem Zeitpunkt das gesamte Spielfeld sehen soll, löse ich das über einen Zoom der Kamera.
+
+## Informatikstunde Nr. 12 (11.03.2020)
+
