@@ -2,6 +2,11 @@
 
 ## Spieler
 
+```lua
+
+
+```
+
 ## Spielfeld
 
 Der meiste Code des Spielfeldes ist für die Darstellung des Julia-Menge. Er stammt aus diesem Repository [Link](https://github.com/tinmanjuggernaut/godot-fractal-art). Ich habe den Code nur leicht angepasst, um ihn passend einsetzten zu können.
@@ -24,3 +29,25 @@ func score(menge = 1):
 ```
 
 Die Punkteanzeige ist ein RichTextLabel und hat somit einen Text, der angezeigt wird. Sie hat nur eine Funktion mit der die Punktanzahl erhöht wird und der Text mit der neuen Zahl aktualisiert wird.
+
+## Sammelbares
+
+Die Objekte mit denen der Spieler kollidieren kann, bestehen aus einer Textur und einer Kollisionsbox. Die Hauptklasse fügt die Funktion Kollision hinzu, bei der das Objekt gelöscht wird.
+
+```lua
+extends KinematicBody2D
+
+func Kollision():
+	queue_free()
+```
+
+## Feind
+
+```lua
+extends "res://pickup.gd"
+
+func Kollision():
+	get_tree().quit()
+```
+
+Kollidiert man mit einem Feind, wird das Spiel beendet.
