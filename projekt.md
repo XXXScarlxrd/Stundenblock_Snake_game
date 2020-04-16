@@ -47,7 +47,43 @@ Jetzt wird der Hintergrund des Spielfeldes immer geändert, wenn der Spieler bew
 
 ```lua
 
+var timer = Timer.new()
+
+var point = preload("res://Sammelbares/point.tscn")
+var feind = preload("res://Sammelbares/collisionobject.tscn")
+var powerup = preload("res://Sammelbares/collectible.tscn")
+
+var RNG = RandomNumberGenerator.new()
+
+var sizex = OS.get_window_size().x
+var sizey = OS.get_window_size().y
+
+func _on_timer_timeout():
+	var instance
+	RNG.randomize()
+	var x = RNG.randi_range(0, sizex)
+	var y = RNG.randi_range(0, sizey)
+	RNG.randomize()
+	var object = RNG.randi_range(0, 2)
+	if(object == 0):
+		instance = point.instance()
+	elif(object==1):
+		instance = feind.instance()
+	else:
+		instance = powerup.instance()
+	
+	instance.position = Vector2(x, y)
+	get_node("..").add_child(instance)
+
+func _ready() -> void:
+	get_viewport().connect("size_changed", self, "update_aspect_ratio")
+	update_aspect_ratio()
+	timer.connect("timeout",self,"_on_timer_timeout") 
+	add_child(timer)
+	timer.start()
 ```
+
+Das ist der Auschnitt vom Code des Spielfelds, der für das erstellen der Items verantwortlich ist. Mithilfe eines Zufallsgenerator wird die Position und Art des Items bestimmt und anschließend in der Welt platziert. Diese Funktion wird mit einem Timer immer wieder aufgerufen.
 
 ## Punkteanzeige
 
@@ -61,7 +97,6 @@ func score(menge = 1):
 	set_text("Punkte: " + str(Punkte))
 ```
 
-Die Punkteanzeige ist ein RichTextLabel und hat somit einen Text, der angezeigt wird. Sie hat nur eine Funktion mit der die Punktanzahl erhöht wird und der Text mit der neuen Zahl aktualisiert wird.
 
 ## "Sammelbares"
 
@@ -104,3 +139,4 @@ func Kollision():
 ```
 
 Es funktioniert mithilfe eines zufallsbasierten Wertes, der für einen Parameter der Fraktal-Visualisierung eingesetzt wird.
+Die Punkteanzeige ist ein RichTextLabel und hat somit einen Text, der angezeigt wird. Sie hat nur eine Funktion mit der die Punktanzahl erhöht wird und der Text mit der neuen Zahl aktualisiert wird. 
