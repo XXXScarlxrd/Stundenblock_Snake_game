@@ -83,8 +83,17 @@ func Kollision():
 
 ## "Powerup"
 
+![](powerup.jpg)
+
 Das Powerup ist nicht wirklich hilfreich, aber es sieht cool es, wenn es den Hintergrund verändert. Es hat eine blaue Box als Textur.
 
 ```lua
+extends "res://pickup.gd"
 
+func Kollision():
+	var power = rand_range(1,5)
+	get_node("/root/G/Fractal").material.set_shader_param("power", power)
+	get_node("..").queue_free()
 ```
+
+Es funktioniert mithilfe eines zufallsbasierten Wertes, der für einen Parameter der Fraktal-Visualisierung eingesetzt wird.
