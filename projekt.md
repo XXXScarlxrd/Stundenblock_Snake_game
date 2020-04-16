@@ -12,14 +12,30 @@ var Bewegung = Vector2()
 func _physics_process(_delta):
 	var MausPosition = get_global_mouse_position()
 	look_at(MausPosition) # Rotiert den Spieler
-	Bewegung = Vector2(Grundgeschwindigkeit, 0).rotated(rotation)
+	Bewegung = Vector2(Grundgeschwindigkeit, 0).rotated(rotation) # Rotiert den Vektor, sodass die x-Komponente, nach vorne zeigt
 	move_and_slide(Bewegung)
-	var Kollision = get_slide_collision(0)
-	if(Kollision):
-		Kollision.collider.Kollision()
 ```
 
-Hier ist die Bewegung des Spielers programmiert. Er hat eine Grundgeschwindigkeit von 200 Einheiten, ist also immer in Bewegung. Außerdem soll er sich immer zu Maus hin ausrichten, damit er sich dorthin bewegen kann. Am Ende findet noch eine Kollisionsabfrage statt. Wenn das if(Kollision) erfüllt ist, rufen wir die Kollisions-Funktion für die sammelbaren Objekte auf.
+Hier ist die Bewegung des Spielers programmiert. Er hat eine Grundgeschwindigkeit von 200 Einheiten, ist also immer in Bewegung. Außerdem soll er sich immer zu Maus hin ausrichten, damit er sich dorthin bewegen kann.
+
+```lua
+	if(position.distance_to(MausPosition) < 1):
+		get_tree().quit()
+```
+
+Dann wird geschaut, ob die Position des Spieler etwa identisch mit der Position der Maus ist, weil der Spieler dann mit sich selbst kollidieren würde. Deshalb wird dort das Spiel auch beendet.
+
+```lua
+	if(get_slide_count() > 0):
+		var Kollision = get_slide_collision(0)
+		if(Kollision):
+			if(Kollision.collider is Sammelbares):
+				Kollision.collider.Kollision()
+
+	var Sammelbares = preload("res://Sammelbares/pickup.gd")
+```
+
+Hier findet nun eine Kollisionsabfrage mit anderen Objekten in der Welt statt. Mit der Sammelbares-Variable und dem "is Sammelbares" stelle ich sicher, dass das Kollisionsobjekt auch die Kollision-Funktion besitzt. Ansonsten würde es zu Abstürzen kommen. 
 
 ## Spielfeld
 
@@ -49,16 +65,7 @@ Die Punkteanzeige ist ein RichTextLabel und hat somit einen Text, der angezeigt 
 
 ## "Sammelbares"
 
-Die Objekte mit denen der Spieler kollidieren kann, bestehen aus einer Textur und einer Kollisionsbox. Die Hauptklasse fügt die Funktion Kollision hinzu, bei der das Objekt gelöscht wird.
-
-```lua
-extends KinematicBody2D
-
-func Kollision():
-	queue_free()
-```
-
-## Feind
+### Feind
 
 ```lua
 extends "res://pickup.gd"
@@ -69,7 +76,7 @@ func Kollision():
 
 Kollidiert man mit einem Feind, wird das Spiel beendet. Er wird mit einer roten Box dargestellt.
 
-## Punkt
+### Punkt
 
 Die Punkte sind das wichtigste sammelbare Objekt. Sie sorgen dafür, dass die Spielerkette vergrößert wird. Die Logik dafür befindet sich allerdings im Spieler. Hier sorgen wir nur dafür, dass die Punktezahl erhöht wird und das Objekt gelöscht wird.
 
@@ -81,7 +88,7 @@ func Kollision():
 	get_node("..").queue_free()
 ```
 
-## "Powerup"
+### "Powerup"
 
 ![](powerup.jpg)
 
